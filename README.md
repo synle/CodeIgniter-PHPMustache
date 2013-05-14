@@ -40,5 +40,5 @@ echo $m->render('Hello {{planet}}', array('planet' => 'World!')); // "Hello Worl
 For more information, please visit
 
 
--Code Igniter : http://ellislab.com/codeigniter
+-Code Igniter : http://ellislab.com/codeigniter <br />
 -Bobthecow PHP Mustache : https://github.com/bobthecow/mustache.php
