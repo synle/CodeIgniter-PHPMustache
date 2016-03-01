@@ -32,7 +32,7 @@ application/helper/composer.json
 By default this code autoload vendor helper
 application/config/autoload.php - line 55
 <pre>
-$autoload['libraries'] = array('vendor');
+$autoload['helper'] = array('vendor');
 </pre>
 
 
