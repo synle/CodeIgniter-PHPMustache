@@ -7,14 +7,14 @@ The integration is done via the use of helper loader.
 application/helper/composer.json
 {
     "require": {
-        "mustache/mustache": "2.1.*"
+        "mustache/mustache": "~2.5"
     }
 }
 
 
 By default this code autoload vendor helper
 application/config/autoload.php - line 55
-$autoload['libraries'] = array('vendor');
+$autoload['helper'] = array('vendor');
 
 
 
