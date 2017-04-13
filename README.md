@@ -9,9 +9,9 @@ Integrating PHP Mustache Engine (bobthecow) into Code Igniter
 
 The integration is done via the use of helper loader.
 
--Navigate to application/helper.
+-Navigate to application/helpers.
 <pre>
-cd application/helper
+cd application/helpers
 </pre>
 
 -Use composer to get all the dependencies by calling
@@ -24,7 +24,7 @@ application/helper/composer.json
 <pre>
 {
     "require": {
-        "mustache/mustache": "2.1.*"
+        "mustache/mustache": "~2.5"
     }
 }
 </pre>
